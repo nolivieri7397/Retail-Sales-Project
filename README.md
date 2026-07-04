@@ -1,19 +1,20 @@
-# MLS Attendance Dashboard
+# Retail Sales Performance Dashboard
 
-Interactive Power BI dashboard analyzing MLS attendance trends by team, season, and market.
+End-to-end analytics pipeline analyzing 200,000 retail transaction records, from raw data to interactive dashboard.
 
 ## What it does
-- Tracks year-over-year attendance across the league
-- Compares performance by team and market
-- Lets users filter by season and team to explore trends
+- Analyzes revenue, profit margin, and sales trends
+- Breaks down performance by product category, region, and time period
+- Interactive Power BI dashboard where users can explore profitability on their own
 
 ## How it's built
-1. Loaded raw attendance data into a MySQL database
-2. Wrote SQL queries to clean, validate, and reshape the data into reporting tables
-3. Connected Power BI to MySQL and built the dashboard
+1. Cleaned and validated raw transaction data with Python (pandas)
+2. Loaded the structured data into MySQL using SQLAlchemy
+3. Wrote SQL queries to organize the data for reporting
+4. Built the dashboard in Power BI
 
 ## Tools
-MySQL · Power BI
+Python (pandas, SQLAlchemy) · MySQL · Power BI
 
-## Screenshots
-(add dashboard screenshots here)
+## Data
+Kaggle retail transactions dataset (200,000 records)
